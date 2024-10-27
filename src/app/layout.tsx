@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Comforter } from "next/font/google";
 
-const comforter = Comforter({ weight: "400" });
+const comforter = Comforter({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
     title: "Create Next App",
