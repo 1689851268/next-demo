@@ -1,5 +1,3 @@
-import React from "react";
-
-export default function DefaultPage() {
-    return <div>DefaultPage</div>;
+export default function Default() {
+    return null;
 }
